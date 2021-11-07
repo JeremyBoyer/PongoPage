@@ -35,15 +35,58 @@ body {
 
 .middle-top {
     background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.all-facts {
+    display: flex;
+}
+.fact {
+    border: 5px solid #3882F6;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    margin: 16px;
+    width: 150px;
+    padding: 16px;
 }
 
 
 .middle-bottom {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote {
+    font-size: 64px;
+}
+.attribution {
+    font-size: 24px;
+}
+.translation {
+    font-size: 12px;
 }
 
 .bottom {
     background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-box {
+    border: 5px solid #3882F6;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    margin: 16px;
+    width: 500px;
+    height: 75px;
+    padding: 16px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .footer {
@@ -73,4 +116,6 @@ a {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
+    border: 3px solid #F9FAF8;
+    border-radius: 4px;
 }
